@@ -3,6 +3,7 @@
 - shell command:
 
         hostnamectl set-hostname 'newname'
+        hostname
         rm /etc/machine-id 
         systemd-machine-id-setup
         cat /etc/machine-id
