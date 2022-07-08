@@ -4,6 +4,7 @@
 
         hostnamectl set-hostname 'newname'
         hostname
-        rm /etc/machine-id 
-        systemd-machine-id-setup
+        sudo rm /etc/machine-id 
+        sudo systemd-machine-id-setup
         cat /etc/machine-id
+        reboot
